@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    background-color: #eff0ef;
+}
+
+.name_profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile_pic_section{
+    text-align: center;
+}
+
+.pic{
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.name_section{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+.name{
+    text-align: left;
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+.info_section{
+    display: grid;
+    font-size: 20px;
+}
+
+.about_me1-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
