@@ -1,0 +1,17 @@
+.footer_section{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer_phone{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.footer_email{
+    text-align: left;
+    margin-left: 20px;
+}

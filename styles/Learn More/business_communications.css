@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    background-color: #eff0ef;
+}
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.content{
+    margin: 50px;
+    padding: 50px;
+    background-color: white;
+    line-height: 2;
+}
+
+.information_plan_title{
+    font-size: 35px;
+}
+
+.content_link{
+    margin: 50px;
+    padding: 50px;
+}
+
+.link{
+    font-size: 25px;
+    color: black;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: rgba(146, 100, 2, 1);
+}
+
+.information_plan_link{
+    font-size: 35px;
+}
