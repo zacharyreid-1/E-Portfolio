@@ -1,53 +1,16 @@
 body{
     font-family: sans-serif;
     background-color: #eff0ef;
+    margin: 0px;
 }
 
 .contact_title{
     text-align: center;
 }
 
-.contact_us{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.contact_field{
-    text-align: center;
-}
-
-.contact_name, .contact_email, .contact_phone, .contact_message{
-    padding: 10px;
-}
-
-.name, .email, .phone{
-    width: 300px;
-    height: 25px;
-}
-
-.message{
-    width: 300px;
-    height: 100px;
-}
-
-.submit{
-    width: 200px;
-    height: 50px;
-    border: none;
-    background-color: black;
-    color: #eff0ef;
-    border-radius: 75px;
-}
-
-.submit:hover{
-    cursor: pointer;
-    background-color: #eff0ef;
-    border: solid black 1px;
-    color: black;
-}
-
-.address, .our_phone, .our_email{
+.our_phone, .our_email{
     display: grid;
     grid-template-columns: 100px 200px;
-    padding: 10px;
+    padding-top: 10px;
+    justify-content: center;
 }

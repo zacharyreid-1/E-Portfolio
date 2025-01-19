@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     background-color: #eff0ef;
+    margin: 0px;
 }
 
 .card1, .card2, .card3, .card4{
@@ -8,6 +9,10 @@ body{
     padding-top: 200px;
     padding-bottom: 200px;
     border: 1px solid black;
+}
+
+.card1, .card3{
+    background-color: rgba(0, 0, 0, .1);
 }
 
 .title{

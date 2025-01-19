@@ -4,9 +4,6 @@
     border-top: 1px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
 }
 
 .footer_phone{
