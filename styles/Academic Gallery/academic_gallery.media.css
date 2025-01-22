@@ -1,5 +1,5 @@
-@media (max-width: 768px){
-
+@media (max-width: 768px) {
+    
     /* header */
     .header_section{
         display: grid;
@@ -19,16 +19,14 @@
     }
 
     /* body */
-    .job_experience{
+    .title{
+        font-size: 35px;
+    }
+
+    .card1, .card2, .card3, .card4{
         text-align: center;
-    }
-
-    .profile_info{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .experience, .certification, .skills{
-        margin-bottom: 20px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border: 1px solid black;
     }
 }
